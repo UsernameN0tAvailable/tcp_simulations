@@ -7,9 +7,9 @@ The implemented simulation scenarios and the respective comments to the code are
 
 ### Simulation Scripts
 
-In folder scratch/TcpBulkSend, the following scenario is implemented: 5 terminals make use of TCP to transfer data generated from a Bulk Send Application.
+In folder [scratch/TcpBulkSend](https://github.com/UsernameN0tAvailable/tcp_simulations/tree/master/scratch/TcpBulkSend), the following scenario is implemented: 5 terminals make use of TCP to transfer data generated from a Bulk Send Application.
 
-In folder scratch/TcpOnOff, the following scenario is implemented: 5 terminals use TCP to transfer data generated from an On/Off Application.
+In folder [scratch/TcpOnOff](https://github.com/UsernameN0tAvailable/tcp_simulations/tree/master/scratch/TcpOnOff), the following scenario is implemented: 5 terminals use TCP to transfer data generated from an On/Off Application.
 
 ### Execution
 Setup and Configuration:
