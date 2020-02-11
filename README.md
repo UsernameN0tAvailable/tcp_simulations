@@ -3,7 +3,7 @@
 This repository makes use of the development ns3 version found [here](https://github.com/nsnam/ns-3-dev-git). No changes have been made and all the ns3 documentation is also valid for this repository.
 
 ## Simulation Scenarios
-The implemented simulation scenarios are found in the scratch folder.
+The implemented simulation scenarios and the respective comments to the code are found in the scratch folder.
 
 ### Simulation Scripts
 
