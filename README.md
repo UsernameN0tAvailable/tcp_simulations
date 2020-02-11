@@ -7,9 +7,9 @@ The implemented simulation scenarios are found in the scratch folder.
 
 ### Simulation Scripts
 
-In folder scratch/TcpBulkSend, the following scenario is implemented: 5 terminals make use of TCP to transfer data generated from a Bulk Send application.
+In folder scratch/TcpBulkSend, the following scenario is implemented: 5 terminals make use of TCP to transfer data generated from a Bulk Send Application.
 
-In folder scratch/TcpOnOff, the following scenario is implemented: 5 terminals use TCP to transfer data generated from an On/Off application.
+In folder scratch/TcpOnOff, the following scenario is implemented: 5 terminals use TCP to transfer data generated from an On/Off Application.
 
 ### Execution
 Setup and Configuration:
@@ -54,9 +54,9 @@ they represents the parameters used for execution (see above in the Execution se
 The content of the text files represents the following: ````<average throughput[bits]>   <standard deviation>````.
 The average and the standard deviation of the throughput of four simulations with the same parameters but different execution seeds.
 #### Congestion Window Results
-The congestion window results can be found in the folder RESULTS/CWND. The CWND folder contains the congestion window data of three files: 
-total congestion window of the five TCP connections at one host in the Bulk Send application scenario, total congestion window of the 
-five TCP connections at one host in the On/Off application scenario and the congestion window of one single connection in the Bulk Send application
+The congestion window results can be found in the folder RESULTS/CWND. The CWND folder contains the congestion window data plotted in the thesis, namely: 
+the sum of the congestion window of all fifteen TCP connections at one host in the Bulk Send Application scenario, the sum of the congestion window of all fifteen TCP
+ connections at one host in the On/Off Application scenario and the total congestion window of one single connection in the Bulk Send Application
 scenario.
 
 The content of the text files represents the following: ````<time stamp [seconds]> <congestion window size [bytes]>````
