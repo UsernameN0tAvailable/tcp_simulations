@@ -40,3 +40,25 @@ Multiple parameter can be use at a time, the valid parameters are:
 The output of the TCP simulations is the throughput in bits per second through the whole network achieved by TCP:
 
 ````<Tcp throughput> ````
+
+### Results
+The results plotted in the thesis can be found in the RESULTS folder.
+#### Throughput Results
+The throughput results can be found in the folder RESULTS/THROUGHPUT. TCP_BULKSEND contains the results obtained with 
+the BulkSend Application and the TCP_ON_OFF contains the results obtained with the On/Off Application. Both folders contain
+the results of the four modes. MODE_1 contains the results obtained with the BER Error Model, MODE_2 the ON/OFF Error Model 
+results with the OFF phase bit error ratio modulation, MODE_3 the results obtained with the ON/OFF plus BER Error Model and
+MODE_4 the results obtained with the ON/OFF Error Model with the mean ON phase modulation. The text file names are descriptive, in that 
+they represents the parameters used for execution (see above in the Execution section for the description and the use of the parameters).
+
+The content of the text files represents the following: ````<average throughput[bits]>   <standard deviation>````.
+The average and the standard deviation of the throughput of four simulations with the same parameters but different execution seeds.
+#### Congestion Window Results
+The congestion window results can be found in the folder RESULTS/CWND. The CWND folder contains the congestion window data of three files: 
+total congestion window of the five TCP connections at one host in the Bulk Send application scenario, total congestion window of the 
+five TCP connections at one host in the On/Off application scenario and the congestion window of one single connection in the Bulk Send application
+scenario.
+
+The content of the text files represents the following: ````<time stamp [seconds]> <congestion window size [bytes]>````
+
+
