@@ -42,19 +42,20 @@ The output of the TCP simulations is the throughput in bits per second through t
 ````<Tcp throughput> ````
 
 ### Results
-The results plotted in the thesis can be found in the RESULTS folder.
+The results plotted in the thesis can be found in the [RESULTS](https://github.com/UsernameN0tAvailable/tcp_simulations/tree/master/RESULTS) folder.
 #### Throughput Results
-The throughput results can be found in the folder RESULTS/THROUGHPUT. TCP_BULKSEND contains the results obtained with 
-the BulkSend Application and the TCP_ON_OFF contains the results obtained with the On/Off Application. Both folders contain
+The throughput results can be found in the folder [RESULTS/THROUGHPUT](https://github.com/UsernameN0tAvailable/tcp_simulations/tree/master/RESULTS/THROUGHPUT). 
+The [TCP_BULKSEND](https://github.com/UsernameN0tAvailable/tcp_simulations/tree/master/RESULTS/THROUGHPUT/TCP_BULKSEND) folder contains the results obtained with 
+the BulkSend Application and the [TCP_ON_OFF](https://github.com/UsernameN0tAvailable/tcp_simulations/tree/master/RESULTS/THROUGHPUT/TCP_ON_OFF) folder contains the results obtained with the On/Off Application. Both folders contain
 the results of the four modes. MODE_1 contains the results obtained with the BER Error Model, MODE_2 the ON/OFF Error Model 
 results with the OFF phase bit error ratio modulation, MODE_3 the results obtained with the ON/OFF plus BER Error Model and
 MODE_4 the results obtained with the ON/OFF Error Model with the mean ON phase modulation. The text file names are descriptive, in that 
-they represents the parameters used for execution (see above in the Execution section for the description and the use of the parameters).
+they represents the parameters used for execution (see above in the [Execution](###Execution) section for the description and the use of the parameters).
 
 The content of the text files represents the following: ````<average throughput[bits]>   <standard deviation>````.
 The average and the standard deviation of the throughput of four simulations with the same parameters but different execution seeds.
 #### Congestion Window Results
-The congestion window results can be found in the folder RESULTS/CWND. The CWND folder contains the congestion window data plotted in the thesis, namely: 
+The congestion window results can be found in the folder [RESULTS/CWND](https://github.com/UsernameN0tAvailable/tcp_simulations/tree/master/RESULTS/CWND). The [CWND](https://github.com/UsernameN0tAvailable/tcp_simulations/tree/master/RESULTS/CWND) folder contains the congestion window data plotted in the thesis, namely: 
 the sum of the congestion window of all fifteen TCP connections at one host in the Bulk Send Application scenario, the sum of the congestion window of all fifteen TCP
  connections at one host in the On/Off Application scenario and the total congestion window of one single connection in the Bulk Send Application
 scenario.
